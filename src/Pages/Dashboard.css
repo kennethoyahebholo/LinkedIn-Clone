@@ -1,0 +1,17 @@
+.dashboard__body {
+ display: flex;
+ flex-direction: column;
+ padding: 1.5rem 1rem;
+ background-color: #f3f2ef;
+}
+
+@media (min-width: 60rem) {
+ .dashboard__body {
+ display: flex;
+ flex-direction: row;
+ flex: 1;
+ padding: 1.5rem 13rem;
+ background-color: #f3f2ef;
+}
+}
+
